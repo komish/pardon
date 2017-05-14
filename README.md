@@ -30,3 +30,16 @@ $ pardon hello world hunter2
 
 	Hotel  Uniform  November  Tango  Echo  Romeo  Two
 ```
+
+## Install
+Currently an effort has not been put in place to make this available via PyPI. Run either of the following to install (from the source directory)
+
+```
+python setup.py install
+```
+
+or
+
+```
+pip install .
+```
