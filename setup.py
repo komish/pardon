@@ -12,7 +12,9 @@ def get_version():
         if len(x) == 1:
             return x[0]
         else:
-            return None
+            raise RuntimeError(
+                'Cannot properly parse version information. '+
+                'Parser found multiple versions where one was expected.')
 
 
 setup(
