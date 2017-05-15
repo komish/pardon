@@ -20,8 +20,8 @@ setup(
     version=get_version(),
     description='Translate alphanumeric characters to phrases',
     long_description=long_description,
-    py_modules=['pardon', 'mappings'],
     url='https://github.com/komish/pardon',
+    packages=['pardon'],
     author='Jose R. Gonzalez',
     author_email='Komish@users.noreply.github.com',
     license="MIT",
@@ -40,6 +40,6 @@ setup(
         'Programming Language :: Python :: 3.6',
     ],
     entry_points={
-        'console_scripts': ['pardon=pardon:main']
+        'console_scripts': ['pardon=pardon.main:main']
     }
 )
