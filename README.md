@@ -4,6 +4,10 @@ A utility script to take alphanumeric characters and translate them to the NATO 
 
 This application has no external dependencies.
 
+## Python Version
+
+This package should work Python 3.x
+
 ## Purpose
 
 This project was built as a personal learning exercise in Python packaging standards and processes.
@@ -35,11 +39,11 @@ $ pardon hello world hunter2
 Currently an effort has not been put in place to make this available via PyPI. Run either of the following to install (from the source directory)
 
 ```
-python setup.py install
+python3 setup.py install
 ```
 
 or
 
 ```
-pip install .
+pip3 install .
 ```
