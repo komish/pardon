@@ -4,7 +4,7 @@
 word_mapping = \
     {'a': 'Alpha',
      'b': 'Bravo',
-     'c': 'Chum',
+     'c': 'Charlie',
      'd': 'Delta',
      'e': 'Echo',
      'f': 'Foxtrot',
